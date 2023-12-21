@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const View = () => {
+const Slider = () => {
   const [index, setIndex] = useState(1);
 
   const handleSliderChange = (event) => {
@@ -10,6 +10,7 @@ const View = () => {
 
   return (
     <div className="flex flex-col gap-5 items-center justify-center h-[100svh] p-5 w-full">
+      {/* <h1 className="text-3xl font-semibold pt-5">USING RANGE SLIDER</h1> */}
       <div>
         <img
           src={`/assets/img${index}.jpg`}
@@ -28,4 +29,4 @@ const View = () => {
   );
 };
 
-export default View;
+export default Slider;
