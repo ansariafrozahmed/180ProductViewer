@@ -1,8 +1,8 @@
 import React from "react";
-import Slider from "./components/Slider";
-import Auto from "./components/Auto";
-import Drag from "./components/Drag";
-import CappasityViewer from "./components/3D";
+import Slider from "../components/Slider";
+import Auto from "../components/Auto";
+import Drag from "../components/Drag";
+import CappasityViewer from "../components/3D";
 
 export default function Page() {
   return (
