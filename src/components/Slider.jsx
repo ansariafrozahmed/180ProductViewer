@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import "@/components/Slider.css";
 
 const Slider = () => {
   const [index, setIndex] = useState(1);

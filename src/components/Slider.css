@@ -1,0 +1,43 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    background: gray;
+    height: 5px;
+    width: 80%;
+    /* max-width: 500px; */
+    outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://static-00.iconduck.com/assets.00/cursor-grab-icon-502x512-ay036dhd.png'); /* Replace with your image URL */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://static-00.iconduck.com/assets.00/cursor-grab-icon-502x512-ay036dhd.png'); /* Replace with your image URL */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://static-00.iconduck.com/assets.00/cursor-grab-icon-502x512-ay036dhd.png'); /* Replace with your image URL */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  /* Additional styling for the track and other elements can be added here */
+  
+  .dragview {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }

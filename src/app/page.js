@@ -14,7 +14,7 @@ export default function Page() {
       <hr />
       <Drag />
       <hr />
-      <CappasityViewer />
+      {/* <CappasityViewer /> */}
     </div>
   );
 }
